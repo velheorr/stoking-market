@@ -2,9 +2,9 @@
 export const renderGoods = (goods,rule = false)=>{
 
 	let arr = []
-	goods.map((el,i) => {
+	goods.map((el,i) => {  // eslint-disable-line no-use-before-define
 		if(rule && el.art === '3031800001') {
-			return;
+			return;  // eslint-disable-line no-use-before-define
 		}
 		arr.push(
 			<div className="goodsBlock" key={i}>

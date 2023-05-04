@@ -28,7 +28,7 @@ const SubHeader = () => {
 		}
 
 		dispatch(updateLang(language))
-	}, [language])
+	}, [language])  // eslint-disable-line no-use-before-define
 
 	return (
 		<div className='subHeader'>

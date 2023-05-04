@@ -1,6 +1,5 @@
 import {useEffect, useState} from 'react';
-import {useDispatch} from "react-redux";
-import {updateLang} from "../store/textSlice";
+
 
 // получение языка браузера
 export const useLang = () => {
