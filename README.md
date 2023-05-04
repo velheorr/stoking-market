@@ -24,3 +24,7 @@
 
 Приложение запуститься в браузере по адресу
 http://localhost:3000
+
+
+## Деплой приложение выполнена на Netlify.com 
+https://master--guileless-sunshine-e61be1.netlify.app/
