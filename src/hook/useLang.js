@@ -11,9 +11,10 @@ export const useLang = () => {
 		if (!curLanguage ) {
 			let language = window.navigator.language;
 			let getLanguage = language.substr(0,2)
-			localStorage.setItem('lang', getLanguage)
+			if (curLanguage !== getLanguage) {
+				localStorage.setItem('lang', getLanguage)
+			}
 			setLang(getLanguage)
-
 		}
 		console.log('localStorage("lang") =', localStorage.getItem('lang'))
 	}, [lang]);
